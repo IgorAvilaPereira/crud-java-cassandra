@@ -23,3 +23,20 @@ CREATE TABLE exemplo.pessoa (
   gostos list<text>
 );
 ```
+
+## Maven Dependencies
+
+```maven
+<dependencies>
+  <dependency>
+  <groupId>com.datastax.cassandra</groupId>
+  <artifactId>cassandra-driver-core</artifactId>
+  <version>3.11.0</version>
+  </dependency>
+  <dependency>
+  <groupId>com.datastax.cassandra</groupId>
+  <artifactId>cassandra-driver-mapping</artifactId>
+  <version>3.11.0</version>
+  </dependency>
+</dependencies>
+```
